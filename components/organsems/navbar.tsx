@@ -45,7 +45,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="hover:text-yellow-500 transition duration-200"
           >
-            <FaMapMarkerAlt size={20} className="mr-2" />
+            <FaMapMarkerAlt size={20} className="mr-2 text-yellow-500" />
           </a>
         </div>
 

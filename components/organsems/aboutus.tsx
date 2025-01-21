@@ -34,11 +34,23 @@ export default function AboutUs() {
             menjadi pilihan utama untuk berbagai kebutuhan potongan rambut,
             cukur jenggot, serta perawatan gaya modern maupun klasik.
           </p>
-          <p className="text-slate-100 leading-relaxed">
+          <p className="text-slate-100 leading-relaxed mb-4">
             Kami percaya bahwa setiap potongan rambut adalah karya seni, dan
             kami berkomitmen untuk memberikan hasil terbaik untuk Anda. Kunjungi
             kami dan rasakan pengalaman perawatan yang berbeda!
           </p>
+
+          {/* CTA Button - WhatsApp */}
+          <div className="mt-6">
+            <a
+              href="https://wa.me/[YourPhoneNumber]?text=Hi%20I%20want%20to%20book%20an%20appointment"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-yellow-500 text-white font-bold rounded-lg shadow-md hover:bg-green-600 transition duration-300"
+            >
+              Book Now via WhatsApp
+            </a>
+          </div>
         </div>
       </div>
     </div>
